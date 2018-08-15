@@ -1,12 +1,11 @@
 # Optical-Flow_Python
 Optical Flow_Python
+..................................................
 
+EROOR  : NO MODULE NAMED VIDEO 
+SOLUTION : MAY BE YOU INSTALL OPENCV BUT OPENCV NOT CONTAIN VIDEO MODULE SO INSTALL GITHUB FILE OF OPENCV AND RUN THIS FILE (opt_flow )IN OPENCV/PYTHON/SAMPLE/OPT_FLOW.IPYNB 
 
-In the opt_flow only code are not necessary there are so much file wich are dependent to each other so 
-
-download the other file and store the opt_flow.pynb in python folder(which are in between in samples ) 
-
-link are https://github.com/opencv/opencv.
+link are https://github.com/opencv/opencv. (the link of opencv)
 
 Some readable link: https://medium.com/@anuragranj/how-many-numbers-does-it-take-to-compute-optical-flow-aa9545337b91
 
