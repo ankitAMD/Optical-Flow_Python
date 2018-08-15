@@ -1,7 +1,8 @@
 # Optical-Flow_Python
 Optical Flow_Python
 
-In the opt_flow only code aare not necessary there are so much file wich are dependent to each other so 
+
+In the opt_flow only code are not necessary there are so much file wich are dependent to each other so 
 
 download the other file and store the opt_flow.pynb in python folder(which are in between in samples ) 
 
@@ -10,6 +11,21 @@ link are https://github.com/opencv/opencv.
 Some readable link: https://medium.com/@anuragranj/how-many-numbers-does-it-take-to-compute-optical-flow-aa9545337b91
 
 https://arxiv.org/pdf/1504.06852.pdf
+
+What is Optical flow ?
+Optical flow is the pattern of apparent motion of image objects between two consecutive frames caused by the movemement of object or camera. It is 2D vector field where each vector is a displacement vector showing the movement of points from first frame to second.
+                         https://docs.opencv.org/3.3.1/optical_flow_basic1.jpg
+
+It shows a ball moving in 5 consecutive frames. The arrow shows its displacement vector. Optical flow has many applications in areas like :
+
+    Structure from Motion
+    Video Compression
+    Video Stabilization .
+    
+ IN CODE WE USE We use the function: cv.calcOpticalFlowFarneback (prev, next, flow, pyrScale, levels, winsize, iterations, polyN, polySigma, flags) WHICH MAINLY USE FOR DENSE OPTICAL FLOW
+
+
+
 
 Basic about code Syntax :
 1. np.arctan2 :  Element-wise arc tangent of x1/x2 choosing the quadrant correctly.(Simple in my words it is arc of tangent(roughly  
