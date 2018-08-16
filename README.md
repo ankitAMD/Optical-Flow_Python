@@ -29,8 +29,13 @@ It shows a ball moving in 5 consecutive frames. The arrow shows its displacement
 https://github.com/ankitAMD/Optical-Flow_Python/blob/master/bbb.png
 
 
+1.from __future__ import print_function :https://stackoverflow.com/questions/32032697/how-to-use-from-future-import-print-function.
 
+2. h, w = img.shape[:2]  :: https://www.reddit.com/r/scipy/comments/4zdh9x/what_does_numpys_imageshape2_do/
+
+3.np.reshape : https://stackoverflow.com/questions/18691084/what-does-1-mean-in-numpy-reshape
 Basic about code Syntax :
+
 1. np.arctan2 :  Element-wise arc tangent of x1/x2 choosing the quadrant correctly.(Simple in my words it is arc of tangent(roughly  
 
 thinks as tan oppose)).
@@ -45,7 +50,7 @@ If image is grayscale, tuple returned contains only number of rows and columns. 
 
 grayscale or color image.   (https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_core/py_basic_ops/py_basic_ops.html)
 
-3.numpy.mgrid:  nd_grid instance which returns a dense multi-dimensional “meshgrid”. (https://docs.scipy.org/doc/numpy-1.14.0/reference/generated/numpy.mgrid.html)
+3.numpy.mgrid:  mesh_grid returns n-D arrays all of the same Dimensions. (https://docs.scipy.org/doc/numpy-1.14.0/reference/generated/numpy.mgrid.html)
 
 4. numpy.vstack:   Stack arrays in sequence vertically (row wise). 
 
