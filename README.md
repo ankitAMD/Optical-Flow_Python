@@ -29,7 +29,11 @@ It shows a ball moving in 5 consecutive frames. The arrow shows its displacement
 https://github.com/ankitAMD/Optical-Flow_Python/blob/master/bbb.png
 
 
-1.from __future__ import print_function :https://stackoverflow.com/questions/32032697/how-to-use-from-future-import-print-function.
+1.from __future__ import print_function : 
+
+https://www.quora.com/Whats-the-point-in-adding-from-__future__-import-print_function-in-__init__-py-in-python/answer/Ankit-Gupta-1781
+
+https://stackoverflow.com/questions/32032697/how-to-use-from-future-import-print-function.
 
 2. h, w = img.shape[:2]  :: https://www.reddit.com/r/scipy/comments/4zdh9x/what_does_numpys_imageshape2_do/
 
